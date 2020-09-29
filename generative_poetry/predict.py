@@ -9,6 +9,8 @@ from pyvi import ViTokenizer
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--text", default="Nỗi lòng thầm kín",
                     help="câu mở đầu lời thơ")
+
+
 def main():
     args = parser.parse_args()
     tokenizer = Tokenizer()
